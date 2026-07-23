@@ -11,7 +11,7 @@ public class HomeController {
 	@GetMapping("/home")
 	public String getMessage()
 	{
-		return "Welcome to LearnHub LMS portal";
+		return "Hi! Welcome to LearnHub LMS portal";
 	}
 
 }
